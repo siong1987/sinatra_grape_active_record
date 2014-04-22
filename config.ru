@@ -1,5 +1,3 @@
-require './config/application'
-
 require './app/api'
 require './app/web'
 

@@ -15,7 +15,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: fiveseconds_development
+  database: testapp_development
   pool: 5
   host: localhost
 
@@ -40,14 +40,14 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: fiveseconds_test
+  database: testapp_test
   pool: 5
   host: localhost
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: fiveseconds_production
+  database: testapp_production
   pool: 5
-  username: fiveseconds
+  username: testapp
   password:

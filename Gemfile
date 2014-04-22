@@ -6,7 +6,7 @@ gem "grape-entity"
 gem "activerecord"
 gem "pg"
 gem "rake"
-gem "thin"
+gem "puma"
 
 group :development, :test do
   gem "rspec"

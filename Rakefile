@@ -118,7 +118,7 @@ namespace :db do
   end
 
   desc "drop the database"
-  task :drop => :connect_db do
+  task :drop do
     ActiveRecordTasks.drop
   end
 
